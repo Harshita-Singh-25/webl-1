@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:lightblue;
+    color: #222222;
+}
+header {
+    background-color: blue;
+    color: white;
+    padding: 1.5em 0;
+    text-align: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav {
+    background-color: #0b2261;
+    padding: 0.8em 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    padding: 0.8em;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1em;
+}
+.content {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.section {
+    margin-bottom: 30px; 
+}
+.section h2 {
+    color: #333;
+}
+
+
+.education-list li {
+    margin-bottom: 10px; /* Add spacing between items */
+    font-size: 1.1em;
+    color: #444;
+}
+
+.education-list li strong {
+    color: #000; /* Make school/college name bold and dark */
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+.projects li {
+    margin-bottom: 10px;
+}
+.skill-logo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.images{
+    width: 100%;
+}
+.skills-img{
+    display: flex;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    nav a {
+        font-size: 1em;
+        padding: 0.6em;
+    }
+    
+    .content {
+        padding: 10px;
+    }
+}
